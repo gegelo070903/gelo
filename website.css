@@ -117,6 +117,7 @@ section {
   
   .card p {
     font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgb(17, 17, 17);
   }
   .card:hover {
@@ -133,6 +134,8 @@ section {
         font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   }
 
-  .gel p {
-    text-align: left;
+  .gel h1 {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
