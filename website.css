@@ -7,19 +7,25 @@ body {
 }
 
 header {
+    background-size: cover;
     background-color: transparent;
     background-image: url(coffee.jpg);
     color: #fff;
     padding: 10px 20px;
     text-align: center;
 }
-
+.name h1 {
+    color: #fff;
+}
 h1 {
     text-align: center;
     margin: 0;
-}
-h2 { 
     size: 100px;
+}
+h1 { 
+    
+    size: large;
+    font-size: xx-large;
     color: floralwhite;
     align-items: center;
     text-align: center;
@@ -28,6 +34,7 @@ h2 {
 }
 
 p {
+    font-size: x-large;
     color: floralwhite;
     text-align: center;
     margin: 0;
@@ -77,3 +84,55 @@ form {
     margin-top: 10px;
 
 }
+
+section {
+    position: center;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+    
+  }
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    transition: 0.3s;
+    background-color: #030303;
+   
+  }
+  
+  .card h2 {
+    color: #080808;
+  }
+  
+  .card p {
+    font-size: medium;
+    color: rgb(17, 17, 17);
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  h2 { 
+    size: large;
+    font-size: xx-large;
+    color: floralwhite;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  }
+
+  .gel p {
+    text-align: left;
+  }
