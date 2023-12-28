@@ -36,7 +36,7 @@ foreach ($values as $price){
         
         <div class="card">
        <h2>Thank you for Purchasing</h2>
-       <img src="images/cat.jpg">
+       <img src="cat.jpg">
      
        <p>Your Total Bill is: <?php echo $bill ?></p>
      
