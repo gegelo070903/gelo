@@ -348,3 +348,7 @@ footer {
     width: 100vw;
     background-color: #080808;
 }
+
+option {
+  text-align: center;
+}
